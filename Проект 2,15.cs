@@ -1,15 +1,13 @@
 using System;
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            float z; 
-            int a = 1, b = 2, c = 3;
-            const int m = 3;          
-            z = (float)(a + b + c) / m;  
-            Console.WriteLine($"Результат: {z}");           
-            Console.ReadKey();
-        }
+        float z;
+        int a = 1, b = 2, c = 3;
+        const int m = 3;
+        z = (float)(a + b + c) / m;
+        Console.WriteLine($"Результат: {z}");
+        Console.ReadKey();
     }
 }
